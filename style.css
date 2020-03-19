@@ -1,32 +1,35 @@
-
-img{
-	max-width: 100%;
-	max-height: auto;
-	display: inline-block;
-	position: relative;
+img {
+  max-width: 100%;
+  max-height: auto;
+  display: inline-block;
+  position: relative;
 }
 
-.all{
-	padding: 0;
-	margin: 0;
-	height: 80%;
-	max-width: 100%;
+.all {
+  padding: 0;
+  margin: 0;
+  height: 80%;
+  max-width: 100%;
 }
 
-.carouselTitle{
-	position: absolute;
-	color:#fff;
-	text-align: center;
-	top: 25%;
+.carouselTitle {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 25%;
 }
 
-.zero{
-	margin: 0;
-	padding: 0;
+.zero {
+  margin: 0;
+  padding: 0;
 }
 
-@media (min-width: 768px){
-	body{
-		background-color: rgb(71, 69, 69);
-	}
+.d-block {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(71, 69, 69);
+  }
 }

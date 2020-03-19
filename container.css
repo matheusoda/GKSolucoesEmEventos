@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (min-height: 450px) {
+  .container {
+    max-height: 600px;
+  }
+}
